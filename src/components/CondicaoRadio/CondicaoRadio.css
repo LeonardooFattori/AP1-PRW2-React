@@ -1,0 +1,30 @@
+.condicao-radio {
+  margin: 24px 0;
+}
+
+.condicao-radio__label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.condicao-radio__opcoes {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+.condicao-radio__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.condicao-radio__item input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: rgb(29, 30, 51);
+}
